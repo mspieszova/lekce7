@@ -5,8 +5,15 @@ byty_k_prevodu="""
 byt0001,Olomouc,ul.Heyrovského,
 byt0003,Olomouc,ul.Novosadský_dvůr,
 """
-
+#zadáno uživatelem
 def prevod_byty(byty):
+    """
+
+    :param byty: string s parametry bytů
+    :type byty: str
+    :return: string s byty dopněnými o dispozice
+    :rtype: str
+    """
     vzor = {
         "byt0001": "1+1",
         "byt0002": "2+1",
