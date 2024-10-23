@@ -1,4 +1,4 @@
-#%% md
+"""funkce která převede string na string s bytovámi dispozicemi"""
 
 
 byty_k_prevodu="""
@@ -29,3 +29,5 @@ def prevod_byty(byty):
     byty_list_updated = [[vzor.get(byty[0], byty[0])] + byty[1:] for byty in byty_list]
     return "\n".join([", ".join(byt) for byt in byty_list_updated])
 print(prevod_byty(byty_k_prevodu))
+if __name__==__name__:
+    prevod_byty(byty_k_prevodu)
